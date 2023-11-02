@@ -1,0 +1,66 @@
+[10.915s] Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uthman/uniccon_mob/build/serial_motor_demo/prefix_override:/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages:/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uthman/uniccon_mob/build/serial_motor_demo/build --no-deps install_data
+[12.096s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/dist.py:498: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[12.096s] !!
+[12.097s] 
+[12.098s]         ********************************************************************************
+[12.098s]         Usage of dash-separated 'script-dir' will not be supported in future
+[12.099s]         versions. Please use the underscore name 'script_dir' instead.
+[12.100s] 
+[12.100s]         This deprecation is overdue, please update your project and remove deprecated
+[12.101s]         calls to avoid build errors in the future.
+[12.102s] 
+[12.102s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[12.103s]         ********************************************************************************
+[12.104s] 
+[12.104s] !!
+[12.106s]   opt = self.warn_dash_deprecation(opt, section)
+[13.914s] running develop
+[13.915s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[13.916s] !!
+[13.916s] 
+[13.917s]         ********************************************************************************
+[13.918s]         Please avoid running ``setup.py`` and ``easy_install``.
+[13.918s]         Instead, use pypa/build, pypa/installer or other
+[13.919s]         standards-based tools.
+[13.920s] 
+[13.920s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[13.921s]         ********************************************************************************
+[13.922s] 
+[13.922s] !!
+[13.923s]   easy_install.initialize_options(self)
+[14.227s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[14.228s] !!
+[14.230s] 
+[14.230s]         ********************************************************************************
+[14.231s]         Please avoid running ``setup.py`` directly.
+[14.232s]         Instead, use pypa/build, pypa/installer or other
+[14.232s]         standards-based tools.
+[14.233s] 
+[14.233s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[14.234s]         ********************************************************************************
+[14.234s] 
+[14.235s] !!
+[14.236s]   self.initialize_options()
+[16.162s] running egg_info
+[16.163s] creating serial_motor_demo.egg-info
+[16.361s] writing serial_motor_demo.egg-info/PKG-INFO
+[16.364s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[16.367s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[16.368s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[16.369s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[16.370s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[16.734s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[16.740s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[17.027s] running build_ext
+[17.028s] Creating /home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[17.034s] Installing driver script to /home/uthman/uniccon_mob/install/serial_motor_demo/lib/serial_motor_demo
+[17.036s] Installing gui script to /home/uthman/uniccon_mob/install/serial_motor_demo/lib/serial_motor_demo
+[17.038s] 
+[17.039s] Installed /home/uthman/uniccon_mob/build/serial_motor_demo
+[17.041s] running install_data
+[17.042s] creating /home/uthman/uniccon_mob/install/serial_motor_demo/share/ament_index
+[17.043s] creating /home/uthman/uniccon_mob/install/serial_motor_demo/share/ament_index/resource_index
+[17.044s] creating /home/uthman/uniccon_mob/install/serial_motor_demo/share/ament_index/resource_index/packages
+[17.045s] copying resource/serial_motor_demo -> /home/uthman/uniccon_mob/install/serial_motor_demo/share/ament_index/resource_index/packages
+[17.046s] copying package.xml -> /home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo
+[17.261s] Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uthman/uniccon_mob/build/serial_motor_demo/prefix_override:/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages:/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uthman/uniccon_mob/build/serial_motor_demo/build --no-deps install_data

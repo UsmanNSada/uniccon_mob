@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/**",
+        "/home/uthman/uniccon_mob/install/serial/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/uthman/uniccon_mob/src/diffdrive_arduino/include/**",
+        "/home/uthman/uniccon_mob/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

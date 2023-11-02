@@ -1,0 +1,158 @@
+[33.606s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/uthman/uniccon_mob']
+[33.606s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/uthman/uniccon_mob'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8f57f8fee0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8f57f8ebf0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8f57f8ebf0>>)
+[34.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[34.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[34.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[34.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[34.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[34.516s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uthman/uniccon_mob'
+[34.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extensions ['ignore', 'ignore_ament_install']
+[34.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'ignore'
+[34.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'ignore_ament_install'
+[34.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extensions ['colcon_pkg']
+[34.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'colcon_pkg'
+[34.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extensions ['colcon_meta']
+[34.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'colcon_meta'
+[34.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extensions ['ros']
+[34.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'ros'
+[34.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extensions ['cmake', 'python']
+[34.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'cmake'
+[34.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'python'
+[34.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extensions ['python_setup_py']
+[34.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob) by extension 'python_setup_py'
+[34.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/build) by extensions ['ignore', 'ignore_ament_install']
+[34.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/build) by extension 'ignore'
+[34.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/build) ignored
+[34.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/install) by extensions ['ignore', 'ignore_ament_install']
+[34.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/install) by extension 'ignore'
+[34.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/install) ignored
+[34.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/log) by extensions ['ignore', 'ignore_ament_install']
+[34.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/log) by extension 'ignore'
+[34.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/log) ignored
+[34.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extensions ['ignore', 'ignore_ament_install']
+[34.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'ignore'
+[34.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'ignore_ament_install'
+[34.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extensions ['colcon_pkg']
+[34.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'colcon_pkg'
+[34.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extensions ['colcon_meta']
+[34.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'colcon_meta'
+[34.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extensions ['ros']
+[34.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'ros'
+[34.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extensions ['cmake', 'python']
+[34.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'cmake'
+[34.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'python'
+[34.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extensions ['python_setup_py']
+[34.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src) by extension 'python_setup_py'
+[34.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extensions ['ignore', 'ignore_ament_install']
+[34.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extension 'ignore'
+[34.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extension 'ignore_ament_install'
+[34.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extensions ['colcon_pkg']
+[34.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extension 'colcon_pkg'
+[34.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extensions ['colcon_meta']
+[34.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extension 'colcon_meta'
+[34.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extensions ['ros']
+[34.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/camera_node) by extension 'ros'
+[34.672s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/camera_node' with type 'ros.ament_python' and name 'camera_node'
+[34.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[34.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extension 'ignore'
+[34.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extension 'ignore_ament_install'
+[34.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extensions ['colcon_pkg']
+[34.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extension 'colcon_pkg'
+[34.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extensions ['colcon_meta']
+[34.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extension 'colcon_meta'
+[34.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extensions ['ros']
+[34.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/diffdrive_arduino) by extension 'ros'
+[34.680s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[34.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extensions ['ignore', 'ignore_ament_install']
+[34.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extension 'ignore'
+[34.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extension 'ignore_ament_install'
+[34.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extensions ['colcon_pkg']
+[34.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extension 'colcon_pkg'
+[34.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extensions ['colcon_meta']
+[34.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extension 'colcon_meta'
+[34.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extensions ['ros']
+[34.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/uniccon_robot) by extension 'ros'
+[34.686s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/uniccon_robot' with type 'ros.ament_cmake' and name 'uniccon_robot'
+[34.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extensions ['ignore', 'ignore_ament_install']
+[34.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extension 'ignore'
+[34.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extension 'ignore_ament_install'
+[34.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extensions ['colcon_pkg']
+[34.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extension 'colcon_pkg'
+[34.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extensions ['colcon_meta']
+[34.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extension 'colcon_meta'
+[34.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extensions ['ros']
+[34.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial) by extension 'ros'
+[34.693s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/serial' with type 'ros.ament_cmake' and name 'serial'
+[34.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[34.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extension 'ignore'
+[34.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extension 'ignore_ament_install'
+[34.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extensions ['colcon_pkg']
+[34.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extension 'colcon_pkg'
+[34.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extensions ['colcon_meta']
+[34.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extension 'colcon_meta'
+[34.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extensions ['ros']
+[34.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo) by extension 'ros'
+[34.700s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[34.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[34.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extension 'ignore'
+[34.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[34.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[34.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[34.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[34.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extension 'colcon_meta'
+[34.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extensions ['ros']
+[34.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/serial_motor_demo_msgs) by extension 'ros'
+[34.706s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[34.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[34.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'ignore'
+[34.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'ignore_ament_install'
+[34.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extensions ['colcon_pkg']
+[34.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'colcon_pkg'
+[34.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extensions ['colcon_meta']
+[34.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'colcon_meta'
+[34.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extensions ['ros']
+[34.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'ros'
+[34.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extensions ['cmake', 'python']
+[34.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'cmake'
+[34.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'python'
+[34.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extensions ['python_setup_py']
+[34.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2) by extension 'python_setup_py'
+[34.711s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extensions ['ignore', 'ignore_ament_install']
+[34.711s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'ignore'
+[34.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'ignore_ament_install'
+[34.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extensions ['colcon_pkg']
+[34.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'colcon_pkg'
+[34.713s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extensions ['colcon_meta']
+[34.713s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'colcon_meta'
+[34.713s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extensions ['ros']
+[34.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'ros'
+[34.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extensions ['cmake', 'python']
+[34.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'cmake'
+[34.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'python'
+[34.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extensions ['python_setup_py']
+[34.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch) by extension 'python_setup_py'
+[34.716s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[34.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'ignore'
+[34.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'ignore_ament_install'
+[34.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extensions ['colcon_pkg']
+[34.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'colcon_pkg'
+[34.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extensions ['colcon_meta']
+[34.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'colcon_meta'
+[34.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extensions ['ros']
+[34.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'ros'
+[34.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extensions ['cmake', 'python']
+[34.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'cmake'
+[34.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'python'
+[34.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extensions ['python_setup_py']
+[34.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/sllidar_ros2/launch/__pycache__) by extension 'python_setup_py'
+[34.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extensions ['ignore', 'ignore_ament_install']
+[34.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extension 'ignore'
+[34.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extension 'ignore_ament_install'
+[34.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extensions ['colcon_pkg']
+[34.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extension 'colcon_pkg'
+[34.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extensions ['colcon_meta']
+[34.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extension 'colcon_meta'
+[34.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extensions ['ros']
+[34.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master) by extension 'ros'
+[34.726s] DEBUG:colcon.colcon_core.package_identification:Package '/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[34.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

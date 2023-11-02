@@ -1,0 +1,67 @@
+[0.887s] Invoking command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/ydlidar_ros2_driver
+[1.023s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.273s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.356s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.961s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.010s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.109s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.183s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.238s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.099s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.136s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[10.016s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[10.212s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.625s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.727s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.733s] -- Configured cppcheck include dirs: /home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master/src
+[10.734s] -- Configured cppcheck exclude dirs and/or files: 
+[10.775s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.775s] -- Configured cpplint exclude dirs and/or files: 
+[10.784s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.794s] -- Added test 'lint_cmake' to check CMake code style
+[10.802s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.841s] -- Added test 'uncrustify' to check C / C++ code style
+[10.841s] -- Configured uncrustify additional arguments: 
+[10.847s] -- Added test 'xmllint' to check XML markup files
+[10.854s] -- Configuring done
+[10.970s] -- Generating done
+[10.978s] -- Build files have been written to: /home/uthman/uniccon_mob/build/ydlidar_ros2_driver
+[11.023s] Invoked command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/ydlidar_ros2_driver
+[11.027s] Invoking command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/ydlidar_ros2_driver -- -j4 -l4
+[11.266s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[11.327s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client[0m
+[11.391s] [ 50%] Built target ydlidar_ros2_driver_node
+[11.429s] [100%] Built target ydlidar_ros2_driver_client
+[12.553s] Invoked command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/ydlidar_ros2_driver -- -j4 -l4
+[14.371s] Invoking command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/ydlidar_ros2_driver
+[14.409s] -- Install configuration: ""
+[14.416s] -- Execute custom install script
+[14.417s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[14.417s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[14.418s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc
+[14.418s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc
+[14.419s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[14.419s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[14.420s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_view_launch.py
+[14.421s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[14.422s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[14.424s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[14.425s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[14.426s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[14.427s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[14.430s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[14.431s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[14.432s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[14.433s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[14.434s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[14.435s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[14.435s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[14.436s] -- Symlinking: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[14.484s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[14.484s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[14.485s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[14.487s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[14.502s] Invoked command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/ydlidar_ros2_driver

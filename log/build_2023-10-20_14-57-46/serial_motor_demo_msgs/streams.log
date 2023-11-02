@@ -1,0 +1,250 @@
+[1.114s] Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs
+[3.145s] -- The C compiler identification is GNU 11.4.0
+[3.145s] -- The CXX compiler identification is GNU 11.4.0
+[3.146s] -- Detecting C compiler ABI info
+[3.147s] -- Detecting C compiler ABI info - done
+[3.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.148s] -- Detecting C compile features
+[3.148s] -- Detecting C compile features - done
+[3.149s] -- Detecting CXX compiler ABI info
+[3.149s] -- Detecting CXX compiler ABI info - done
+[3.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.150s] -- Detecting CXX compile features
+[3.150s] -- Detecting CXX compile features - done
+[3.151s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.256s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.947s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.383s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.486s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.606s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.970s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[19.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[26.396s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[26.536s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[27.326s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[27.328s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[27.329s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[27.334s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[28.283s] -- Found PythonExtra: .so  
+[29.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[29.097s] -- Added test 'lint_cmake' to check CMake code style
+[29.124s] -- Added test 'xmllint' to check XML markup files
+[29.388s] -- Configuring done
+[30.204s] -- Generating done
+[30.230s] -- Build files have been written to: /home/uthman/uniccon_mob/build/serial_motor_demo_msgs
+[30.674s] Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs
+[30.703s] Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial_motor_demo_msgs -- -j4 -l4
+[31.127s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.212s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.369s] [  4%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[34.248s] running egg_info
+[34.257s] creating serial_motor_demo_msgs.egg-info
+[34.499s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[34.501s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[34.503s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[34.503s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[35.143s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[35.147s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[35.473s] [  4%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[36.409s] [  4%] Built target serial_motor_demo_msgs__cpp
+[36.602s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[36.806s] [  8%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[37.272s] [ 10%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[37.736s] [ 12%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[38.512s] [ 14%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so[0m
+[38.849s] [ 14%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[38.948s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[39.677s] [ 19%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[39.717s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[40.784s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[43.086s] [ 25%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[44.902s] [ 27%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[46.216s] [ 29%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[46.899s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[47.000s] [ 34%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[51.161s] [ 36%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so[0m
+[51.640s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[52.274s] [ 38%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[52.772s] [ 40%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[54.978s] [ 42%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[57.794s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[59.460s] [ 46%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[61.977s] [ 48%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[62.342s] [ 51%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[62.964s] [ 51%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[64.097s] [ 53%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[64.982s] [ 53%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[66.428s] [ 55%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[67.202s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[67.312s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[70.478s] [ 59%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[70.750s] [ 61%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[71.059s] [ 63%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[71.376s] [ 65%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so[0m
+[71.744s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[71.853s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[75.407s] [ 70%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[75.787s] [ 72%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[76.065s] [ 74%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[76.311s] [ 76%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so[0m
+[76.512s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[76.650s] [ 76%] Built target serial_motor_demo_msgs
+[76.821s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[80.771s] [ 78%] Built target serial_motor_demo_msgs__py
+[80.954s] [ 80%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o[0m
+[81.910s] [ 82%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o[0m
+[82.918s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o[0m
+[83.917s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so[0m
+[84.281s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[84.435s] [ 89%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[85.423s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[85.723s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[85.896s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[87.002s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[87.327s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[87.530s] [ 97%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[88.541s] [100%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[88.872s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[89.968s] Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial_motor_demo_msgs -- -j4 -l4
+[90.975s] Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial_motor_demo_msgs
+[91.057s] -- Install configuration: ""
+[91.062s] -- Execute custom install script
+[91.067s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[91.143s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[91.224s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[91.315s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[91.393s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[91.461s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[91.552s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[91.625s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[91.713s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[91.816s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[91.905s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[91.978s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[92.032s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[92.093s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[92.180s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[92.248s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[92.331s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[92.418s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[92.514s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[92.593s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[92.682s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[92.776s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[92.860s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[92.919s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[92.977s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[93.064s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[93.150s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[93.242s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[93.319s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[93.393s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[93.496s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[93.579s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[93.678s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[93.774s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[93.854s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[93.939s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[94.031s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[94.113s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[94.216s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[94.306s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[94.401s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[94.486s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[94.571s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[94.668s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[94.756s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[94.853s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[94.941s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[95.031s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[95.122s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[95.215s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[95.304s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[95.394s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[95.498s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[95.573s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[95.666s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[95.755s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[95.829s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[95.896s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[95.974s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[96.047s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[96.113s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[96.186s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[96.266s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[96.350s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[96.439s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[96.442s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[96.444s] -- Up-to-date symlink: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[96.447s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[96.524s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[96.590s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[96.677s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[96.765s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[96.842s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[96.925s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[96.992s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[97.052s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[97.121s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[97.181s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[97.254s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[97.331s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[97.410s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[97.491s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[97.571s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[97.651s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[97.726s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[97.787s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[97.866s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[97.929s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[97.985s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[98.062s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[98.127s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.187s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[98.263s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[98.332s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[98.391s] -- Symlinking: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[98.456s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[98.460s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[98.461s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[98.464s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[98.468s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[98.479s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[98.480s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[98.481s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[98.482s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[98.492s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[98.493s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[98.494s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[98.501s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[98.502s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[98.768s] Listing '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[98.768s] Compiling '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...
+[98.769s] Listing '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[98.770s] Compiling '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[98.771s] Compiling '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[98.771s] Compiling '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[98.772s] Compiling '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[98.807s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[98.812s] -- Set runtime path of "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[98.813s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[98.815s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[98.816s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[98.818s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[98.819s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[98.821s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[98.823s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[98.824s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[98.826s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[98.828s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[98.829s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[98.831s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[98.832s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[98.834s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[98.835s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[98.837s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[98.838s] -- Installing: /home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[98.855s] Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial_motor_demo_msgs

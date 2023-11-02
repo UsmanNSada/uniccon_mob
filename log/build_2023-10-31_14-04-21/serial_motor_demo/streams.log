@@ -1,0 +1,50 @@
+[6.841s] Invoking command in '/home/uthman/uniccon_mob/src/serial_motor_demo': CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:/home/uthman/uniccon_mob/install/ydlidar_ros2_driver:/home/uthman/uniccon_mob/install/uniccon_robot:/home/uthman/uniccon_mob/install/diffdrive_arduino:/home/uthman/uniccon_mob/install/serial:/home/uthman/mob_ws/install/ydlidar_ros2_driver:/home/uthman/mob_ws/install/slam_gmapping:/home/uthman/mob_ws/install/serial_motor_demo_msgs:/home/uthman/mob_ws/install/diffdrive_arduino:/home/uthman/mob_ws/install/serial:/home/uthman/mob_ws/install/rf2o_laser_odometry:/home/uthman/mob_ws/install/openslam_gmapping:/home/uthman/mob_ws/install/my_robot:/home/uthman/mob_ws/install/arduinobot_moveit:/home/uthman/mob_ws/install/arduinobot_description:/home/uthman/mob_ws/install/arduinobot_cpp:/home/uthman/mob_ws/install/arduinobot_controller:/home/uthman/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/uthman/uniccon_mob/build/serial_motor_demo/prefix_override:/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/uthman/uniccon_mob/build/serial_motor_demo/build install --record /home/uthman/uniccon_mob/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[7.306s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/dist.py:498: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[7.306s] !!
+[7.306s] 
+[7.306s]         ********************************************************************************
+[7.306s]         Usage of dash-separated 'script-dir' will not be supported in future
+[7.307s]         versions. Please use the underscore name 'script_dir' instead.
+[7.307s] 
+[7.307s]         This deprecation is overdue, please update your project and remove deprecated
+[7.307s]         calls to avoid build errors in the future.
+[7.307s] 
+[7.307s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[7.308s]         ********************************************************************************
+[7.308s] 
+[7.308s] !!
+[7.308s]   opt = self.warn_dash_deprecation(opt, section)
+[7.740s] running egg_info
+[7.807s] writing ../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[7.810s] writing dependency_links to ../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[7.811s] writing entry points to ../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[7.812s] writing requirements to ../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[7.812s] writing top-level names to ../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[7.962s] reading manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[7.974s] writing manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[7.974s] running build
+[7.975s] running build_py
+[7.977s] running install
+[7.978s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[7.978s] !!
+[7.979s] 
+[7.979s]         ********************************************************************************
+[7.979s]         Please avoid running ``setup.py`` directly.
+[7.980s]         Instead, use pypa/build, pypa/installer or other
+[7.980s]         standards-based tools.
+[7.981s] 
+[7.981s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[7.982s]         ********************************************************************************
+[7.982s] 
+[7.982s] !!
+[7.983s]   self.initialize_options()
+[7.998s] running install_lib
+[8.074s] running install_data
+[8.146s] running install_egg_info
+[8.217s] removing '/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[8.218s] Copying ../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[8.236s] running install_scripts
+[8.855s] Installing driver script to /home/uthman/uniccon_mob/install/serial_motor_demo/lib/serial_motor_demo
+[8.855s] Installing gui script to /home/uthman/uniccon_mob/install/serial_motor_demo/lib/serial_motor_demo
+[8.857s] writing list of installed files to '/home/uthman/uniccon_mob/build/serial_motor_demo/install.log'
+[8.940s] Invoked command in '/home/uthman/uniccon_mob/src/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:/home/uthman/uniccon_mob/install/ydlidar_ros2_driver:/home/uthman/uniccon_mob/install/uniccon_robot:/home/uthman/uniccon_mob/install/diffdrive_arduino:/home/uthman/uniccon_mob/install/serial:/home/uthman/mob_ws/install/ydlidar_ros2_driver:/home/uthman/mob_ws/install/slam_gmapping:/home/uthman/mob_ws/install/serial_motor_demo_msgs:/home/uthman/mob_ws/install/diffdrive_arduino:/home/uthman/mob_ws/install/serial:/home/uthman/mob_ws/install/rf2o_laser_odometry:/home/uthman/mob_ws/install/openslam_gmapping:/home/uthman/mob_ws/install/my_robot:/home/uthman/mob_ws/install/arduinobot_moveit:/home/uthman/mob_ws/install/arduinobot_description:/home/uthman/mob_ws/install/arduinobot_cpp:/home/uthman/mob_ws/install/arduinobot_controller:/home/uthman/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/uthman/uniccon_mob/build/serial_motor_demo/prefix_override:/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/uthman/uniccon_mob/build/serial_motor_demo/build install --record /home/uthman/uniccon_mob/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/uthman/uniccon_mob/build/serial_motor_demo",
+        "/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/uthman/uniccon_mob/build/camera_node",
+        "/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages",
+        "/home/uthman/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/uthman/uniccon_mob/build/serial_motor_demo",
+        "/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/uthman/uniccon_mob/build/camera_node",
+        "/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages",
+        "/home/uthman/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

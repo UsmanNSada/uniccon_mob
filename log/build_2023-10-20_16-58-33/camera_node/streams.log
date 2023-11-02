@@ -1,0 +1,77 @@
+[13.066s] Invoking command in '/home/uthman/uniccon_mob/build/camera_node': PYTHONPATH=/home/uthman/uniccon_mob/build/camera_node/prefix_override:/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/uthman/uniccon_mob/build/camera_node/build
+[22.134s] running develop
+[22.135s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[22.136s] !!
+[22.136s] 
+[22.137s]         ********************************************************************************
+[22.138s]         Please avoid running ``setup.py`` and ``easy_install``.
+[22.139s]         Instead, use pypa/build, pypa/installer or other
+[22.140s]         standards-based tools.
+[22.141s] 
+[22.141s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[22.142s]         ********************************************************************************
+[22.143s] 
+[22.143s] !!
+[22.144s]   easy_install.initialize_options(self)
+[22.680s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[22.681s] !!
+[22.682s] 
+[22.683s]         ********************************************************************************
+[22.683s]         Please avoid running ``setup.py`` directly.
+[22.684s]         Instead, use pypa/build, pypa/installer or other
+[22.685s]         standards-based tools.
+[22.685s] 
+[22.688s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[22.688s]         ********************************************************************************
+[22.689s] 
+[22.690s] !!
+[22.690s]   self.initialize_options()
+[26.206s] Removing /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera-node.egg-link (link to .)
+[28.017s] Invoked command in '/home/uthman/uniccon_mob/build/camera_node' returned '0': PYTHONPATH=/home/uthman/uniccon_mob/build/camera_node/prefix_override:/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/uthman/uniccon_mob/build/camera_node/build
+[28.034s] Invoking command in '/home/uthman/uniccon_mob/src/camera_node': PYTHONPATH=/home/uthman/uniccon_mob/build/camera_node/prefix_override:/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/uthman/uniccon_mob/build/camera_node/build install --record /home/uthman/uniccon_mob/build/camera_node/install.log --single-version-externally-managed
+[33.515s] running egg_info
+[33.942s] writing ../../build/camera_node/camera_node.egg-info/PKG-INFO
+[33.945s] writing dependency_links to ../../build/camera_node/camera_node.egg-info/dependency_links.txt
+[33.947s] writing entry points to ../../build/camera_node/camera_node.egg-info/entry_points.txt
+[33.949s] writing requirements to ../../build/camera_node/camera_node.egg-info/requires.txt
+[33.955s] writing top-level names to ../../build/camera_node/camera_node.egg-info/top_level.txt
+[34.708s] reading manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[34.723s] writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[34.725s] running build
+[34.728s] running build_py
+[34.729s] creating /home/uthman/uniccon_mob/build/camera_node/build
+[34.730s] creating /home/uthman/uniccon_mob/build/camera_node/build/lib
+[34.731s] creating /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node
+[34.742s] copying camera_node/__init__.py -> /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node
+[34.743s] copying camera_node/camera_subscriber.py -> /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node
+[34.744s] copying camera_node/camera_publisher.py -> /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node
+[34.745s] running install
+[34.745s] /home/uthman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[34.746s] !!
+[34.747s] 
+[34.748s]         ********************************************************************************
+[34.748s]         Please avoid running ``setup.py`` directly.
+[34.749s]         Instead, use pypa/build, pypa/installer or other
+[34.775s]         standards-based tools.
+[34.776s] 
+[34.777s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[34.777s]         ********************************************************************************
+[34.787s] 
+[34.788s] !!
+[34.791s]   self.initialize_options()
+[34.814s] running install_lib
+[35.103s] creating /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node
+[35.104s] copying /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node/__init__.py -> /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node
+[35.105s] copying /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node/camera_subscriber.py -> /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node
+[35.106s] copying /home/uthman/uniccon_mob/build/camera_node/build/lib/camera_node/camera_publisher.py -> /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node
+[35.113s] byte-compiling /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node/__init__.py to __init__.cpython-310.pyc
+[35.114s] byte-compiling /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node/camera_subscriber.py to camera_subscriber.cpython-310.pyc
+[35.115s] byte-compiling /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node/camera_publisher.py to camera_publisher.cpython-310.pyc
+[35.121s] running install_data
+[35.441s] running install_egg_info
+[35.751s] Copying ../../build/camera_node/camera_node.egg-info to /home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages/camera_node-0.0.0-py3.10.egg-info
+[35.753s] running install_scripts
+[38.570s] Installing cam_publisher script to /home/uthman/uniccon_mob/install/camera_node/lib/camera_node
+[38.571s] Installing cam_subscriber script to /home/uthman/uniccon_mob/install/camera_node/lib/camera_node
+[38.572s] writing list of installed files to '/home/uthman/uniccon_mob/build/camera_node/install.log'
+[40.923s] Invoked command in '/home/uthman/uniccon_mob/src/camera_node' returned '0': PYTHONPATH=/home/uthman/uniccon_mob/build/camera_node/prefix_override:/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/uthman/uniccon_mob/build/camera_node/build install --record /home/uthman/uniccon_mob/build/camera_node/install.log --single-version-externally-managed

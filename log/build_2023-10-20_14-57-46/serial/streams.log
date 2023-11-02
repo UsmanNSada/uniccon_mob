@@ -1,0 +1,81 @@
+[1.400s] Invoking command in '/home/uthman/uniccon_mob/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial
+[3.427s] -- The C compiler identification is GNU 11.4.0
+[3.428s] -- The CXX compiler identification is GNU 11.4.0
+[3.432s] -- Detecting C compiler ABI info
+[3.437s] -- Detecting C compiler ABI info - done
+[3.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.440s] -- Detecting C compile features
+[3.441s] -- Detecting C compile features - done
+[3.442s] -- Detecting CXX compiler ABI info
+[3.443s] -- Detecting CXX compiler ABI info - done
+[3.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.446s] -- Detecting CXX compile features
+[3.447s] -- Detecting CXX compile features - done
+[3.447s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.251s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.308s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.404s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[7.443s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.464s] -- Looking for pthread.h
+[8.202s] -- Looking for pthread.h - found
+[8.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.050s] -- Found Threads: TRUE  
+[9.771s] -- Configuring done
+[9.937s] -- Generating done
+[9.955s] -- Build files have been written to: /home/uthman/uniccon_mob/build/serial
+[10.007s] Invoked command in '/home/uthman/uniccon_mob/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial
+[10.011s] Invoking command in '/home/uthman/uniccon_mob/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial -- -j4 -l4
+[10.576s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[10.671s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[10.708s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.838s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[19.165s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[25.129s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[25.771s] [ 42%] Built target serial
+[26.335s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[31.250s] [ 57%] [32m[1mLinking CXX executable serial_example[0m
+[31.718s] [ 64%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[32.405s] [ 64%] Built target serial_example
+[32.437s] [ 64%] Built target gtest_main
+[63.098s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[63.752s] [ 71%] Built target gtest
+[63.951s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[73.470s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[73.470s]                  from [01m[K/home/uthman/uniccon_mob/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[73.471s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[73.472s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[73.473s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[75.462s] [ 85%] [32m[1mLinking CXX executable serial-test[0m
+[76.755s] [ 85%] Built target serial-test
+[76.865s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[83.716s] [100%] [32m[1mLinking CXX executable serial-test-timer[0m
+[84.926s] [100%] Built target serial-test-timer
+[85.024s] Invoked command in '/home/uthman/uniccon_mob/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial -- -j4 -l4
+[85.403s] Invoking command in '/home/uthman/uniccon_mob/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial
+[85.492s] -- Install configuration: ""
+[85.496s] -- Execute custom install script
+[85.499s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/lib/libserial.a
+[85.585s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/include/serial/serial.h
+[85.679s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/include/serial/v8stdint.h
+[85.749s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/environment/library_path.sh
+[85.843s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/environment/library_path.dsv
+[85.942s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[86.033s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[86.128s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/environment/ament_prefix_path.sh
+[86.218s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/environment/ament_prefix_path.dsv
+[86.307s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/environment/path.sh
+[86.395s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/environment/path.dsv
+[86.463s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/local_setup.bash
+[86.540s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/local_setup.sh
+[86.621s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/local_setup.zsh
+[86.702s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/local_setup.dsv
+[86.792s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/package.dsv
+[86.887s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/ament_index/resource_index/packages/serial
+[86.981s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[87.074s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[87.162s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/cmake/serialConfig.cmake
+[87.244s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/cmake/serialConfig-version.cmake
+[87.346s] -- Symlinking: /home/uthman/uniccon_mob/install/serial/share/serial/package.xml
+[87.454s] Invoked command in '/home/uthman/uniccon_mob/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial

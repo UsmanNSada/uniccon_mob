@@ -1,0 +1,571 @@
+[4.565s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[4.565s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5b5514e500>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5b556eed10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5b556eed10>>)
+[4.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.774s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uthman/uniccon_mob'
+[4.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.816s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.816s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.816s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.817s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.817s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.817s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.818s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.818s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.818s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ignore', 'ignore_ament_install']
+[4.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore'
+[4.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore_ament_install'
+[4.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_pkg']
+[4.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_pkg'
+[4.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_meta']
+[4.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_meta'
+[4.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ros']
+[4.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ros'
+[4.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_node' with type 'ros.ament_python' and name 'camera_node'
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[4.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extensions ['ignore', 'ignore_ament_install']
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extension 'ignore'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extension 'ignore_ament_install'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extensions ['colcon_pkg']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extension 'colcon_pkg'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extensions ['colcon_meta']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extension 'colcon_meta'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extensions ['ros']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/uniccon_robot) by extension 'ros'
+[4.839s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uniccon_robot' with type 'ros.ament_cmake' and name 'uniccon_robot'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[4.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[4.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extension 'ignore'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extension 'colcon_meta'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extensions ['ros']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo_msgs) by extension 'ros'
+[4.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['cmake', 'python']
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'cmake'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'python'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['python_setup_py']
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'python_setup_py'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extensions ['ignore', 'ignore_ament_install']
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'ignore'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'ignore_ament_install'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extensions ['colcon_pkg']
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'colcon_pkg'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extensions ['colcon_meta']
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'colcon_meta'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extensions ['ros']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'ros'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extensions ['cmake', 'python']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'cmake'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'python'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extensions ['python_setup_py']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch) by extension 'python_setup_py'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'ignore'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'ignore_ament_install'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extensions ['colcon_pkg']
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'colcon_pkg'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extensions ['colcon_meta']
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'colcon_meta'
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extensions ['ros']
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'ros'
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extensions ['cmake', 'python']
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'cmake'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'python'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extensions ['python_setup_py']
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2/launch/__pycache__) by extension 'python_setup_py'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['ignore', 'ignore_ament_install']
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'ignore'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'ignore_ament_install'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['colcon_pkg']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'colcon_pkg'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['colcon_meta']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'colcon_meta'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['ros']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'ros'
+[4.859s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver-master' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/uthman/ros2_ws/install
+[5.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 428 installed packages in /opt/ros/humble
+[5.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_args' from command line to 'None'
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target' from command line to 'None'
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[5.740s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[5.740s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[5.740s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[5.740s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[5.740s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.740s] DEBUG:colcon.colcon_core.verb:Building package 'camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/camera_node', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/camera_node', 'symlink_install': True, 'test_result_base': None}
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'cmake_args' from command line to 'None'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'cmake_target' from command line to 'None'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'cmake_clean_first' from command line to 'False'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'cmake_force_configure' from command line to 'False'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'ament_cmake_args' from command line to 'None'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[5.801s] Level 5:colcon.colcon_core.verb:set package 'uniccon_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.802s] DEBUG:colcon.colcon_core.verb:Building package 'uniccon_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/uniccon_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/uniccon_robot', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/uniccon_robot', 'symlink_install': True, 'test_result_base': None}
+[5.859s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[5.859s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[5.860s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.860s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/serial', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/serial', 'symlink_install': True, 'test_result_base': None}
+[5.923s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[5.923s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[5.923s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.924s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.924s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.924s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.924s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.924s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.924s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.924s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.982s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master', 'symlink_install': True, 'test_result_base': None}
+[6.038s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[6.038s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[6.038s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.039s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[6.039s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[6.039s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[6.039s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[6.039s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[6.039s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.039s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[6.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[6.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[6.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[6.100s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.100s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uthman/uniccon_mob/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uthman/uniccon_mob/install/serial_motor_demo', 'merge_install': False, 'path': '/home/uthman/uniccon_mob/src/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[6.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uthman/uniccon_mob/src/serial' with build type 'ament_cmake'
+[6.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uthman/uniccon_mob/src/serial'
+[6.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uthman/uniccon_mob/src/serial_motor_demo_msgs' with build type 'ament_cmake'
+[6.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uthman/uniccon_mob/src/serial_motor_demo_msgs'
+[6.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.832s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/uthman/uniccon_mob/src/camera_node' with build type 'ament_python'
+[6.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'ament_prefix_path')
+[6.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/hook/ament_prefix_path.ps1'
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/hook/ament_prefix_path.dsv'
+[6.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/hook/ament_prefix_path.sh'
+[7.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uthman/uniccon_mob/src/uniccon_robot' with build type 'ament_cmake'
+[7.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uthman/uniccon_mob/src/uniccon_robot'
+[7.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial
+[7.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs
+[9.033s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/uthman/uniccon_mob/src/camera_node'
+[9.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/uniccon_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/uniccon_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/uniccon_robot
+[16.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial
+[16.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial -- -j4 -l4
+[17.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/camera_node': PYTHONPATH=/home/uthman/uniccon_mob/build/camera_node/prefix_override:/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uthman/uniccon_mob/build/camera_node/build --no-deps install_data
+[21.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/uniccon_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/uniccon_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/uniccon_robot
+[21.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/uniccon_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/uniccon_robot -- -j4 -l4
+[22.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/uniccon_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/uniccon_robot -- -j4 -l4
+[23.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/uniccon_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/uniccon_robot
+[29.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uniccon_robot)
+[29.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/uniccon_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/uniccon_robot
+[29.610s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot' for CMake module files
+[29.615s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot' for CMake config files
+[29.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('uniccon_robot', 'cmake_prefix_path')
+[30.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/hook/cmake_prefix_path.ps1'
+[30.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/hook/cmake_prefix_path.dsv'
+[30.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/hook/cmake_prefix_path.sh'
+[30.035s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/bin'
+[30.036s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/lib/pkgconfig/uniccon_robot.pc'
+[30.038s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/lib/python3.10/site-packages'
+[30.040s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/bin'
+[30.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.ps1'
+[30.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.dsv'
+[30.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.sh'
+[30.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.bash'
+[30.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.zsh'
+[30.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/uniccon_robot/share/colcon-core/packages/uniccon_robot)
+[31.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uniccon_robot)
+[31.499s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot' for CMake module files
+[31.514s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot' for CMake config files
+[31.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('uniccon_robot', 'cmake_prefix_path')
+[32.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/hook/cmake_prefix_path.ps1'
+[32.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/hook/cmake_prefix_path.dsv'
+[32.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/hook/cmake_prefix_path.sh'
+[32.515s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/bin'
+[32.516s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/lib/pkgconfig/uniccon_robot.pc'
+[32.527s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/lib/python3.10/site-packages'
+[32.529s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/uniccon_robot/bin'
+[33.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.ps1'
+[33.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.dsv'
+[33.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.sh'
+[33.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.bash'
+[33.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.zsh'
+[33.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/uniccon_robot/share/colcon-core/packages/uniccon_robot)
+[33.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master' with build type 'ament_cmake'
+[33.432s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master'
+[34.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.297s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/ydlidar_ros2_driver
+[36.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'pythonpath_develop')
+[36.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/camera_node' returned '0': PYTHONPATH=/home/uthman/uniccon_mob/build/camera_node/prefix_override:/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uthman/uniccon_mob/build/camera_node/build --no-deps install_data
+[36.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/build/camera_node/share/camera_node/hook/pythonpath_develop.ps1'
+[36.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/build/camera_node/share/camera_node/hook/pythonpath_develop.dsv'
+[36.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/build/camera_node/share/camera_node/hook/pythonpath_develop.sh'
+[36.622s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node' for CMake module files
+[36.625s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node' for CMake config files
+[36.634s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node/lib'
+[36.635s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node/bin'
+[36.636s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node/lib/pkgconfig/camera_node.pc'
+[36.637s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node/lib/python3.10/site-packages'
+[36.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'pythonpath')
+[36.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/hook/pythonpath.ps1'
+[36.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/hook/pythonpath.dsv'
+[36.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/hook/pythonpath.sh'
+[36.993s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/camera_node/bin'
+[36.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_node)
+[37.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/package.ps1'
+[37.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/package.dsv'
+[37.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/package.sh'
+[37.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/package.bash'
+[37.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/camera_node/share/camera_node/package.zsh'
+[37.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/camera_node/share/colcon-core/packages/camera_node)
+[37.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs
+[37.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial_motor_demo_msgs -- -j4 -l4
+[64.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/ydlidar_ros2_driver
+[64.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/ydlidar_ros2_driver -- -j4 -l4
+[91.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial -- -j4 -l4
+[91.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial
+[93.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[93.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial
+[93.977s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial' for CMake module files
+[93.982s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial' for CMake config files
+[93.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[94.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[94.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[94.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[94.245s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/lib'
+[94.245s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/bin'
+[94.246s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/lib/pkgconfig/serial.pc'
+[94.247s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/lib/python3.10/site-packages'
+[94.249s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/bin'
+[94.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.ps1'
+[94.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/serial/share/serial/package.dsv'
+[94.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.sh'
+[94.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.bash'
+[94.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.zsh'
+[94.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/serial/share/colcon-core/packages/serial)
+[95.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[95.252s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial' for CMake module files
+[95.255s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial' for CMake config files
+[95.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[95.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[95.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[95.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[95.546s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/lib'
+[95.546s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/bin'
+[95.547s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/lib/pkgconfig/serial.pc'
+[95.549s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/lib/python3.10/site-packages'
+[95.550s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial/bin'
+[95.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.ps1'
+[95.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/serial/share/serial/package.dsv'
+[95.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.sh'
+[95.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.bash'
+[95.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial/share/serial/package.zsh'
+[95.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/serial/share/colcon-core/packages/serial)
+[95.705s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uthman/uniccon_mob/src/diffdrive_arduino' with build type 'ament_cmake'
+[95.706s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uthman/uniccon_mob/src/diffdrive_arduino'
+[95.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[95.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[96.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/serial_motor_demo_msgs -- -j4 -l4
+[96.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/uthman/uniccon_mob/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/diffdrive_arduino
+[97.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial_motor_demo_msgs
+[105.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[105.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/serial_motor_demo_msgs
+[105.608s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs' for CMake module files
+[105.614s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs' for CMake config files
+[105.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[105.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[105.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[105.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[105.855s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib'
+[105.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[106.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[106.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[106.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[106.076s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/bin'
+[106.076s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[106.079s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[106.080s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/bin'
+[106.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[106.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[106.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[106.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[106.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[106.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[107.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[107.751s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs' for CMake module files
+[107.756s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs' for CMake config files
+[107.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[107.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[107.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[107.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[107.982s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib'
+[107.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[108.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[108.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[108.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[108.202s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/bin'
+[108.202s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[108.204s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[108.206s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/bin'
+[108.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[108.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[108.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[108.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[108.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[108.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[108.431s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/uthman/uniccon_mob/src/serial_motor_demo' with build type 'ament_python'
+[108.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[108.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[108.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[108.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[108.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[108.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[111.693s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/uthman/uniccon_mob/src/serial_motor_demo'
+[111.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[111.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[119.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uthman/uniccon_mob/build/serial_motor_demo/prefix_override:/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages:/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uthman/uniccon_mob/build/serial_motor_demo/build --no-deps install_data
+[125.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[125.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uthman/uniccon_mob/build/serial_motor_demo/prefix_override:/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages:/home/uthman/uniccon_mob/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uthman/uniccon_mob/build/serial_motor_demo/build --no-deps install_data
+[125.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[125.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[125.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[126.125s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo' for CMake module files
+[126.130s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo' for CMake config files
+[126.134s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo/lib'
+[126.134s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo/bin'
+[126.135s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[126.137s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo/lib/python3.10/site-packages'
+[126.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[126.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[126.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[126.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[126.345s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/serial_motor_demo/bin'
+[126.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[126.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[126.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[126.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[126.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[126.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[126.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[131.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/uthman/uniccon_mob/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/diffdrive_arduino
+[131.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/uthman/uniccon_mob/build/diffdrive_arduino -- -j4 -l4
+[171.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/ydlidar_ros2_driver -- -j4 -l4
+[171.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/ydlidar_ros2_driver
+[173.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[173.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/ydlidar_ros2_driver
+[173.638s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver' for CMake module files
+[173.643s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver' for CMake config files
+[173.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[173.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[173.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[173.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[173.889s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib'
+[173.890s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/bin'
+[173.891s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[173.893s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[173.895s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/bin'
+[174.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[174.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[174.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[174.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[174.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[174.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[174.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[174.739s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver' for CMake module files
+[174.742s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver' for CMake config files
+[174.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[174.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[174.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[174.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[174.912s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib'
+[174.913s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/bin'
+[174.913s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[174.914s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[174.916s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/bin'
+[175.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[175.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[175.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[175.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[175.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[175.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[201.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/uthman/uniccon_mob/build/diffdrive_arduino -- -j4 -l4
+[201.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uthman/uniccon_mob/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/uthman/uniccon_mob/build/diffdrive_arduino
+[203.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[203.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uthman/uniccon_mob/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/uthman/uniccon_mob/build/diffdrive_arduino
+[203.403s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino' for CMake module files
+[203.408s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino' for CMake config files
+[203.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[203.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[203.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[203.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[203.553s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/lib'
+[203.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[203.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[203.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[203.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[203.692s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/bin'
+[203.692s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[203.693s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/lib/python3.10/site-packages'
+[203.695s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/bin'
+[203.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[203.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[203.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[203.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[203.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[203.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[204.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[204.350s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino' for CMake module files
+[204.352s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino' for CMake config files
+[204.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[204.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[204.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[204.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[204.488s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/lib'
+[204.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[204.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[204.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[204.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[204.633s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/bin'
+[204.634s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[204.635s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/lib/python3.10/site-packages'
+[204.636s] Level 1:colcon.colcon_core.environment:checking '/home/uthman/uniccon_mob/install/diffdrive_arduino/bin'
+[204.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[204.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[204.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[204.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[204.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[204.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uthman/uniccon_mob/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[204.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[204.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[204.780s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[204.780s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[204.956s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[204.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[204.957s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[205.026s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[205.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uthman/uniccon_mob/install/local_setup.ps1'
+[205.295s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uthman/uniccon_mob/install/_local_setup_util_ps1.py'
+[205.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uthman/uniccon_mob/install/setup.ps1'
+[205.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uthman/uniccon_mob/install/local_setup.sh'
+[205.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uthman/uniccon_mob/install/_local_setup_util_sh.py'
+[205.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uthman/uniccon_mob/install/setup.sh'
+[205.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uthman/uniccon_mob/install/local_setup.bash'
+[205.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uthman/uniccon_mob/install/setup.bash'
+[205.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uthman/uniccon_mob/install/local_setup.zsh'
+[205.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uthman/uniccon_mob/install/setup.zsh'

@@ -1,0 +1,56 @@
+[2.418s] Invoking command in '/home/uthman/uniccon_mob/build/uniccon_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/uniccon_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/uniccon_robot
+[2.542s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.497s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.595s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.215s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.414s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.441s] -- Added test 'lint_cmake' to check CMake code style
+[4.450s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.561s] -- Added test 'xmllint' to check XML markup files
+[4.567s] -- Configuring done
+[4.615s] -- Generating done
+[4.628s] -- Build files have been written to: /home/uthman/uniccon_mob/build/uniccon_robot
+[4.953s] Invoked command in '/home/uthman/uniccon_mob/build/uniccon_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/uthman/uniccon_mob/src/uniccon_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/uniccon_robot
+[4.966s] Invoking command in '/home/uthman/uniccon_mob/build/uniccon_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/uniccon_robot -- -j4 -l4
+[5.203s] Invoked command in '/home/uthman/uniccon_mob/build/uniccon_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/uthman/uniccon_mob/build/uniccon_robot -- -j4 -l4
+[6.813s] Invoking command in '/home/uthman/uniccon_mob/build/uniccon_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/uniccon_robot
+[6.865s] -- Install configuration: ""
+[6.869s] -- Execute custom install script
+[6.872s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/empty.yaml
+[6.938s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/gazebo_params.yaml
+[6.991s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/joystick.yaml
+[7.046s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/mapper_params_online_async.yaml
+[7.100s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/my_controllers.yaml
+[7.155s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/robot_world.rviz
+[7.209s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/slam_toolbox_default.rviz
+[7.264s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/config/twist_mux.yaml
+[7.320s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/camera.xacro
+[7.375s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/depth_camera.xacro
+[7.430s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/gazebo_control.xacro
+[7.484s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/inertial_macros.xacro
+[7.548s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/lidar.xacro
+[7.601s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/robot.urdf.xacro
+[7.655s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/robot_core.xacro
+[7.710s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/description/ros2_control.xacro
+[7.766s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/launch/joystick.launch.py
+[7.876s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/launch/launch_robot.launch.py
+[7.979s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/launch/launch_sim.launch.py
+[8.066s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/launch/rsp.launch.py
+[8.128s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/worlds/empty.world
+[8.184s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/worlds/obstacle_world.world
+[8.242s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/ament_index/resource_index/package_run_dependencies/uniccon_robot
+[8.297s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/ament_index/resource_index/parent_prefix_path/uniccon_robot
+[8.360s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/environment/ament_prefix_path.sh
+[8.433s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/environment/ament_prefix_path.dsv
+[8.499s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/environment/path.sh
+[8.561s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/environment/path.dsv
+[8.619s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/local_setup.bash
+[8.677s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/local_setup.sh
+[8.743s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/local_setup.zsh
+[8.802s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/local_setup.dsv
+[8.865s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.dsv
+[8.939s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/ament_index/resource_index/packages/uniccon_robot
+[8.997s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/cmake/uniccon_robotConfig.cmake
+[9.058s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/cmake/uniccon_robotConfig-version.cmake
+[9.113s] -- Symlinking: /home/uthman/uniccon_mob/install/uniccon_robot/share/uniccon_robot/package.xml
+[9.188s] Invoked command in '/home/uthman/uniccon_mob/build/uniccon_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uthman/uniccon_mob/install/serial_motor_demo:/home/uthman/uniccon_mob/install/camera_node:/home/uthman/mob_ws/install/serial_motor_demo:/home/uthman/mob_ws/install/arduinobot_py:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/uthman/uniccon_mob/build/uniccon_robot

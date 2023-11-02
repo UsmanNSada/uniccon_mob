@@ -1,0 +1,80 @@
+[0.818s] Invoking command in '/home/uthman/uniccon_mob/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/uthman/uniccon_mob/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/diffdrive_arduino
+[1.332s] -- The C compiler identification is GNU 11.4.0
+[1.897s] -- The CXX compiler identification is GNU 11.4.0
+[1.966s] -- Detecting C compiler ABI info
+[2.684s] -- Detecting C compiler ABI info - done
+[2.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.805s] -- Detecting C compile features
+[2.809s] -- Detecting C compile features - done
+[2.837s] -- Detecting CXX compiler ABI info
+[3.575s] -- Detecting CXX compiler ABI info - done
+[3.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.666s] -- Detecting CXX compile features
+[3.669s] -- Detecting CXX compile features - done
+[3.701s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.126s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.682s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.005s] -- Found serial: 1.2.1 (/home/uthman/uniccon_mob/install/serial/share/serial/cmake)
+[8.038s] -- Found hardware_interface: 2.32.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[8.475s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.535s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.638s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.738s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.770s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[17.780s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.076s] -- Found FastRTPS: /opt/ros/humble/include  
+[18.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.720s] -- Looking for pthread.h
+[19.452s] -- Looking for pthread.h - found
+[19.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[20.036s] -- Found Threads: TRUE  
+[21.570s] -- Found controller_manager: 2.32.0 (/opt/ros/humble/share/controller_manager/cmake)
+[35.038s] -- Configuring done
+[35.874s] -- Generating done
+[35.890s] -- Build files have been written to: /home/uthman/uniccon_mob/build/diffdrive_arduino
+[35.956s] Invoked command in '/home/uthman/uniccon_mob/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/uthman/uniccon_mob/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uthman/uniccon_mob/install/diffdrive_arduino
+[35.968s] Invoking command in '/home/uthman/uniccon_mob/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/uthman/uniccon_mob/build/diffdrive_arduino -- -j4 -l4
+[36.362s] [ 14%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[60.788s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[60.801s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[80.772s] [ 57%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[82.084s] [ 57%] Built target diffdrive_arduino
+[82.237s] [ 71%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[82.241s] [ 85%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[104.190s] [100%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[105.435s] [100%] Built target fake_robot
+[105.524s] Invoked command in '/home/uthman/uniccon_mob/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/uthman/uniccon_mob/build/diffdrive_arduino -- -j4 -l4
+[105.760s] Invoking command in '/home/uthman/uniccon_mob/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/uthman/uniccon_mob/build/diffdrive_arduino
+[105.816s] -- Install configuration: ""
+[105.819s] -- Execute custom install script
+[105.821s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[105.884s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[105.951s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[106.016s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/lib/libfake_robot.so
+[106.075s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[106.137s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[106.205s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[106.267s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[106.329s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[106.388s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[106.455s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[106.520s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[106.580s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[106.646s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[106.715s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[106.773s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[106.843s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[106.910s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[106.966s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[107.029s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[107.094s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[107.155s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[107.220s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[107.284s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[107.350s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[107.414s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[107.478s] -- Symlinking: /home/uthman/uniccon_mob/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[107.554s] Invoked command in '/home/uthman/uniccon_mob/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uthman/uniccon_mob/install/serial:/home/uthman/ros2_ws/install/my_cpp_pkg:/home/uthman/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/uthman/uniccon_mob/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/uthman/uniccon_mob/build/diffdrive_arduino
